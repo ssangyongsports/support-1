@@ -120,8 +120,8 @@ function Home() {
         <div className="container">
           <img className="homepage-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/>
           <h1 className="hero__title">How can we help?</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-        </div>
+            <DocSearch apiKey="008a4ddf459e4f41ceddc60d6baebc6f" indexName="shabados" />
+</div>
       </header>
       <main className="main-container">
         {features && features.length > 0 && (
