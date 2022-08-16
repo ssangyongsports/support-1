@@ -36,3 +36,43 @@
   height: 200px;
   width: 200px;
 }
+[data-theme=dark] .searchDiv .DocSearch-Button {
+    color: var(--docsearch-muted-color);
+}
+@media only screen and (max-width: 768px)
+.searchDiv .DocSearch-Button {
+    width: 90%;
+}
+.searchDiv .DocSearch-Button {
+    border-radius: 10px;
+    color: var(--docsearch-text-color);
+    height: 45px;
+    margin: auto;
+    padding: 0 20px;
+    width: 70%;
+}
+.DocSearch-Button {
+    margin: 0;
+    transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+.DocSearch-Button {
+    align-items: center;
+    background: var(--docsearch-searchbox-background);
+    border: 0;
+    border-radius: 40px;
+    color: var(--docsearch-muted-color);
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    height: 36px;
+    justify-content: space-between;
+    padding: 0 8px;
+    user-select: none;
+}
+.DocSearch-Button, .DocSearch-Help {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+* {
+    box-sizing: border-box;
+}
