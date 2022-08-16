@@ -76,3 +76,6 @@
 * {
     box-sizing: border-box;
 }
+.searchDiv .DocSearch-Button {
+    width: 90%;
+}
