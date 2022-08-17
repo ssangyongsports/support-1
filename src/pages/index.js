@@ -121,14 +121,9 @@ function Home() {
         <div className="container">
           <img className="homepage-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/>
           <h1 className="hero__title">How can we help?</h1>
-            <DocSearch
-    apiKey="59ff39ed48d0820010c7e09fc4b677bf"
-    indexName="zowe"
-    searchParameters={{
-      facetFilters
-    }}
-    />
-</div>
+          <div className="searchDiv">
+            <SearchHeader />
+    </div>
       </header>
       <main className="main-container">
         {features && features.length > 0 && (
