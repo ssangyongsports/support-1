@@ -1,17 +1,17 @@
 module.exports = {
   title: "雙龍體育支援中心",
-  tagline: "Your go-to guides for understanding Hashnode a little better",
+  tagline: "雙龍體育支援中心",
   url: "https://support.hashnode.com/",
   baseUrl: "/",
-  onBrokenLinks: "ignore",
-  onBrokenMarkdownLinks: "ignore",
+  onBrokenLinks: "ssangyongsports",
+  onBrokenMarkdownLinks: "support-1",
   favicon:
-    "https://cdn.hashnode.com/res/hashnode/image/upload/v1611242173172/AOX1gE2jc.png",
-  organizationName: "hashnode", // Usually your GitHub org/user name.
-  projectName: "support", // Usually your repo name.
+    "https://uploads-ssl.webflow.com/62f0c37a3d1cea75603016a9/62f3230be726d3169ad48765_62ccdcf4ce0fa3341567b2e5_%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88%20(1)%20(1).jpg",
+  organizationName: "ssangyongsports", // Usually your GitHub org/user name.
+  projectName: "support-1", // Usually your repo name.
   themeConfig: {
     navbar: {
-      // title: 'Hashnode',
+      // title: '雙龍體育',
       logo: {
         alt: "Hashnode Support Logo",
         src:
@@ -21,8 +21,8 @@ module.exports = {
       },
       items: [
         {
-          href: "https://hashnode.com",
-          label: "Back to Hashnode",
+          href: "https://www.ssangyongsports.eu.org/",
+          label: "回官網",
           position: "right",
         },
       ],
@@ -45,11 +45,11 @@ module.exports = {
     footer: {
       links: [
         {
-          title: "Talk to the team",
+          title: "與我們聯繫",
           items: [
             {
               label: "Email Us",
-              href: "mailto:hello@hashnode.com",
+              href: "mailto:support@ssport.eu.org",
             },
             {
               label: "Twitter",
@@ -62,7 +62,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Hashnode`,
+      copyright: `Copyright © ${new Date().getFullYear()} 雙龍體育`,
     },
   },
   presets: [
@@ -71,7 +71,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/Hashnode/support/edit/main/",
+          editUrl: "https://github.com/ssangyongsports/support-1/edit/main",
         },
 
         theme: {
