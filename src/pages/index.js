@@ -117,16 +117,12 @@ function Home() {
   return (
     <Layout
       >
-              <div className="container">
-          <img
-            className={styles.heroLogo}
-            alt="Download icon"
-            src={useBaseUrl("/img/zowe-icon-dark.png")}
-          />
+      <header className={clsx('hero', styles.heroBanner)}>
+        <div className="container">
+          <img className="homepage-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/>
           <h1 className="hero__title">{siteConfig.title}</h1>
           <div className="searchDiv">
             <SearchHeader />
-          </div>
         </div>
       </header>
       <main className="main-container">
