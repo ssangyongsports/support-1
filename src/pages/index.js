@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-
+import SearchHeader from "../components/SearchHeader/SearchHeader";
 const features = [
   {
     title: 'Getting Started',
@@ -119,8 +119,10 @@ function Home() {
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
           <img className="homepage-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/>
-          <h1 className="hero__title">How can we help?</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title">{siteConfig.title}</h1>
+          <div className="searchDiv">
+            <SearchHeader />
+        </div>
         </div>
       </header>
       <main className="main-container">
