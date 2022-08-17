@@ -118,8 +118,7 @@ function Home() {
       >
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
-          <img className="homepage-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/>
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title">我們能幫助你什麼嗎？</h1>
           <div className="searchDiv">
             <SearchHeader />
         </div>
