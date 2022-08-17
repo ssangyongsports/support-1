@@ -57,7 +57,6 @@ const features = [
     title: 'Settings & Customization',
     description: (
       <>
-        <li><a href = "docs/account-settings">Update Profile Page</a></li>
         <li><a href = "docs/analytics">Analytics</a></li>
         <li><a href = "docs/general-settings">General Settings</a></li>
         <li><a href = "docs/github-backup">Auto GitHub Backup</a></li>
