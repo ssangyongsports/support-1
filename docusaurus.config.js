@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Hashnode Support",
+  title: "雙龍體育支援中心",
   tagline: "Your go-to guides for understanding Hashnode a little better",
   url: "https://support.hashnode.com/",
   baseUrl: "/",
